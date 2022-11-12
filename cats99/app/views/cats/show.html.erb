@@ -1,0 +1,29 @@
+<h1> Look at our cats </h1>
+<table>
+    <thead>
+        <tr>
+            <th colspan="2"><%= @cat.name %></th>
+        </tr>
+
+    </thead>
+        <td>Birth Date</td>
+        <td><%=@cat.birth_date %></td>
+    <tbody>
+        <td>Gender</td>
+        <td><%= @cat.sex %></td>
+
+    </tbody>
+
+    <tbody>
+        <td>Color</td>
+        <td><%= @cat.color %></td>
+
+    </tbody>
+    
+     <tbody>
+        <td>Description</td>
+        <td><%= @cat.description %></td>
+    </tbody>
+
+
+</table>
